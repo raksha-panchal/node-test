@@ -26,7 +26,6 @@ app.post('/addclass/:id',(req,res)=>{
 })
 
 app.get('/buyclass/:id',(req,res)=>{
-	console.log("sdf")
 	userAction.buyclass(req,res)
 })
 
